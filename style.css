@@ -1,0 +1,26 @@
+
+/*modification de la hauteur du container bulma card-content*/
+div.card-content {
+    min-height: 230px;
+    
+}
+
+/*modification du padding haut et bas du container bulma card-footer*/
+div.card-footer {
+    padding: 10px 0 10px 5px
+}
+
+/*modification de la couleur de fond du container bulma card-header-title*/
+div.card-header-title {
+    background-color: rgb(252, 252, 252) ;
+}
+
+/*création d'une classe lettrine afin d'augmenter la taille de la lettre entre
+balises span*/
+div.card-content>p>span.lettrine {
+    font-size: 150%;
+}
+
+html {
+    scroll-padding-top: 60px;
+}
