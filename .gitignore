@@ -1,2 +1,2 @@
 #exclusion du répertoire "vendor" situé à la racine du projet
-vendor\
+vendor/
